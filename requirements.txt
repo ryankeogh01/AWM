@@ -1,0 +1,10 @@
+asgiref @ file:///home/conda/feedstock_root/build_artifacts/asgiref_1652752042988/work
+Django @ file:///home/conda/feedstock_root/build_artifacts/django_1638897748254/work
+GDAL==3.5.2
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1662888942478/work
+psycopg2 @ file:///Users/runner/miniforge3/conda-bld/psycopg2-split_1640944599048/work
+psycopg2-binary @ file:///home/conda/feedstock_root/build_artifacts/psycopg2-split_1640944520001/work/psycopg2-binary
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1664798238822/work
+sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1663990453245/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1656706066251/work
+whitenoise==6.2.0
