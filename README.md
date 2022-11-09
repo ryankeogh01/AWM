@@ -117,7 +117,7 @@ The next step for me was to create the Django Docker image, to do this I complet
 
 - docker create --name myassignment --network wmap_network --network-alias wmap_alias ryankeogh2001/assignment
 
-My next step which I completed was to configure my nginx proxy. I did this by creating the headers.conf and server.conf files in the etc/nginx/conf.d directory.
+My next step which I completed was to configure my nginx proxy. I did this by creating the headers.conf and server.conf files in the etc/nginx/conf.d directory. These files had to be configured to match my domain name as well as my django and pgadmin container alias'.
 
 After completing these steps I began running my containers using the command:
 
