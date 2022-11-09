@@ -129,6 +129,8 @@ After I fixed my error after some time I managed to use docker exec -it amdconta
 
 ![image](https://user-images.githubusercontent.com/79484404/200851491-1f16c78c-fa89-423b-a87f-365f64660959.png)
 
+After this i ran python manage.py collectstatic which also ran successfully.
+
 Next I made sure to run all of the containers in order which appeared successful, below is a screenshot of these containers:
 
 ![image](https://user-images.githubusercontent.com/79484404/200852375-afe298f4-6869-4c2c-8d0f-378b0007da66.png)
