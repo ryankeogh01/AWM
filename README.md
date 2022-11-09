@@ -18,7 +18,7 @@ I used the following commands to do this:
 
 - docker create --name gis2022 --network awm2022 --network-alias gis2022_db -t -p 25432:5432 -e POSTGRES_USER=docker -e POSTGRES_PASS=docker -v    gis2022:/var/lib/postgresql kartoza/postgis
 
-- docker create --name pgadmin2022 --network awm2022 --network-alias mypgadmin4_2022 -p 20080:80 -t -e PGADMIN_DEFAULT_EMAIL=ryankeogh2014@gmail.com -e PGADMIN_DEFAULT_PASSWORD=mypassword -v my_pgadmin4_data:/var/lib/pgadmin dpage/pgadmin4
+- docker create --name pgadmin2022 --network awm2022 --network-alias mypgadmin4_2022 -p 20080:80 -t -e PGADMIN_DEFAULT_EMAIL=myemail -e PGADMIN_DEFAULT_PASSWORD=mypassword -v my_pgadmin4_data:/var/lib/pgadmin dpage/pgadmin4
 
 After running these commands I was able to run my project through these containers and maintain all functionality such as logging in, singning up, updating the databas and finding user location.
 
@@ -76,9 +76,9 @@ I appended my settings.py file in my project to be ready for deployment which is
 
 I pushed latest docker image to my docker hub repo called assignment for the image to be ready to pull into the VM when needed.
 
-- docker tag 300db14a8d20 ryankeogh2001/myassignment:latest
+- docker tag 300db14a8d20 dockerhubusername/myassignment:latest
 
-- docker push ryankeogh2001/myassignment:latest
+- docker push dockerhubusername/myassignment:latest
 
 # 4 Deployment using my Digital Ocean Droplet 
 
