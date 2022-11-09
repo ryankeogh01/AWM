@@ -169,6 +169,9 @@ I  tried changing the proxy pass in the server.conf file to match my server of 1
 
 Upon deploying the application to my domain I had a few small issues. One being that my marker for the page wouldnt load but the blue circle would. If i had more time to go back to my code I would have fixed this issue along with a small issue on mobile devices which wouldnt let mobile users drop down the navbar. I would have fixed both of these with a small bit more time.
 
+# 6 Conclusions
+
+To conclude, for this assignment I created and ran a geospatial locations tracking application which I deployed locally during Docker. This application allows for users to sign in, log in, find their location on the map and for their location and user details to be posted to the database. After this I worked to deploy to my domain name and after some trial and error managed to get it up and running successfully. This was done using Digital Ocean where i created a droplet and and created the first 3 containers of postgis, pgadmin and nginx along with the certificate. The next step I took was to create a linux amd64 image using docker of my project and push it to docker hub. I pulled the image into my VM and created the django container using it. From here I launched up my containers and ensured that the site was deployed, which it was successful.
 
 
 
